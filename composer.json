@@ -1,0 +1,21 @@
+{
+    "name": "ccforevercn/php-ftp",
+    "description": "it is used to upload files to the server through FTP in PHP project",
+    "type": "1",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "ccforevercn",
+            "email": "1253705861@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ftp\\": "src/ftp"
+        }
+    }
+}
